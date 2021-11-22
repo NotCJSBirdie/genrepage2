@@ -1,0 +1,22 @@
+.articleimage {
+	height: 150px;
+	width: 130px;
+}
+
+.description {
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+}
+
+.title {
+	font-family: "Manrope", sans-serif;
+	font-weight: 500;
+}
+
+.date {
+	text-align: right;
+}
+
+.mainheading {
+	text-align: center;
+}

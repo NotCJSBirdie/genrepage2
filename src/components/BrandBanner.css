@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
+
+.brandbanner {
+	font-family: "Manrope", sans-serif;
+}
+
+.arrowdown {
+	justify-content: left;
+	padding-left: 0;
+}
+
+.contact {
+	text-align: right;
+	padding-right: 0;
+}
+
+p {
+	font-size: 10px;
+	font-family: "Manrope", sans-serif;
+}
+
+.stackofthebanner {
+	text-align: center;
+}
+
+.boxofthestack {
+	padding: 20px 20px;
+}
+
+.boxofthegrid {
+	padding: 20px 20px;
+}
+
+.popUp {
+	background-color: white;
+}
+
+.facebook2 {
+	height: 15px;
+	width: 15px;
+}

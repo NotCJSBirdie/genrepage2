@@ -1,0 +1,98 @@
+.Footer {
+	background-color: #041a3e;
+	color: white;
+	display: flex;
+	padding: 20px 20px;
+	box-shadow: 10px 10px;
+	font-family: "Manrope", sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+.lightfp {
+	font-family: "Manrope", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: rgba(249, 249, 249, 0.7);
+	margin: 0;
+}
+
+.heavyfp {
+	font-family: "Manrope", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	color: #f6f6fc;
+	margin: 0;
+}
+
+.lightf {
+	font-size: 13px;
+	font-weight: 300;
+	color: rgba(249, 249, 249, 0.7);
+}
+
+.heavyf {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	color: #f6f6fc;
+}
+
+.facebook {
+	margin-left: 10px;
+	width: 10px;
+	height: 15px;
+}
+
+.instagram {
+	margin-left: 10px;
+	height: 15px;
+	width: 15px;
+}
+
+.twitter {
+	margin-left: 10px;
+	height: 15px;
+	width: 15px;
+}
+
+.telegram {
+	margin-left: 10px;
+	height: 15px;
+	width: 15px;
+}
+
+.mail {
+	margin-left: 10px;
+	height: 15px;
+	width: 15px;
+}
+
+.FooterLogo {
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.stack {
+	text-align: center;
+}
+
+/*.lightf1280 {
+	text-align: right;
+	font-family: "Fira Code", monospace;
+	font-weight: 300;
+	color: rgba(249, 249, 249, 0.7);
+}*/
+
+.Box {
+	padding: 0;
+}
+
+ul {
+	text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.sidebar {
+	font-family: "Manrope", sans-serif;
+}
+
+.button {
+	font-family: "Manrope", sans-serif;
+	text-align: left;
+	justify-content: left;
+	padding-right: 50px;
+}
+
+.buttonfont {
+	margin-top: 5px;
+	text-align: left;
+	font-color: "black";
+	font-family: "Inter", sans-serif;
+}

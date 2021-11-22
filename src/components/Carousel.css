@@ -1,0 +1,23 @@
+.CarouselSolo {
+	display: flex;
+	font-family: "Manrope", sans-serif;
+}
+
+h3 {
+	font-family: "Manrope", sans-serif;
+	font-size: "10px !important";
+}
+
+p {
+	font-family: "Manrope", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.button {
+	margin-top: 1px;
+}
+
+.carouselfont {
+	text-align: left;
+}

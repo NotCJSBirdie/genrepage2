@@ -1,0 +1,7 @@
+.grid {
+	margin-top: 0;
+}
+
+.carousellist {
+	background-image: @url (./assets/carouselbg.png);
+}

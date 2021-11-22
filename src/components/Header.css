@@ -1,0 +1,48 @@
+.Header {
+	background-color: #041a3e;
+	color: white;
+	display: flex;
+	padding: 10px 10px;
+	font-family: "Manrope", sans-serif;
+}
+
+.searchbar {
+	display: flex;
+	background-color: white;
+}
+
+.searchicon {
+	background-color: white;
+	color: black;
+}
+
+.contentheading {
+	margin: 0;
+}
+
+.box3 {
+	display: flex;
+	align-items: flex-end;
+}
+
+.heart {
+	height: 5px;
+	width: 5px;
+}
+
+.shoppingcart {
+	height: 5px;
+	width: 5px;
+}
+
+.paper {
+	height: 50px;
+}
+
+.button {
+	margin: 0;
+}
+
+.menu {
+	padding: 0;
+}
