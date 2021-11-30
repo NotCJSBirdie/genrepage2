@@ -1,0 +1,14 @@
+.dropdownbutton {
+	width: 100%;
+}
+
+.bootstrap-select.btn-group .btn .caret {
+	left: 12px;
+}
+.bootstrap-select.btn-group .btn .filter-option {
+	text-align: right;
+}
+
+.dropdown-menu {
+	width: 100%;
+}

@@ -2,7 +2,21 @@
 	font-family: "Inter", sans-serif;
 }
 
+.cardfontp {
+	font-family: "Inter", sans-serif;
+}
+
 .cardpictures {
 	width: 230px;
 	height: 250px;
+}
+
+.cardpicturessmall {
+	width: 180px;
+	height: 180px;
+}
+
+.cardpicturessmallx {
+	width: 130px;
+	height: 130px;
 }

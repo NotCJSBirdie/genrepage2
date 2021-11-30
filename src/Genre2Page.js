@@ -7,32 +7,26 @@ import Article from "./components/Article.js";
 import CarouselSidebar from "./components/CarouselSidebar.js";
 import CardYes from "./components/Card.js";
 import CardYes2 from "./components/Card2.js";
-// import "./App.css";
+import "./App.css";
 import Box from "@mui/material/Box";
 import ArticleSecond from "./components/Article2.js";
 import ArticleThird from "./components/Article3.js";
-import SideForm from "./components/SideForm.js";
+import SideFormAndCard from "./components/SideFormAndCard.js";
+import HeaderRevised from "./components/HeaderRevised.js";
 
-function App() {
-  return (
-    <>
-      <BrandBanner />
-      <Header />
-      <CarouselSidebar />
-      <Box sx={{ mt: 5 }}></Box>
-      <CardYes />
-      <CardYes2 />
-      <Box sx={{ mt: 15 }}></Box>
-
-      <Article />
-      <Box sx={{ mt: 5 }}></Box>
-      <ArticleSecond />
-      <Box sx={{ mt: 5 }}></Box>
-      <ArticleThird />
-      <Box sx={{ mt: 25 }}></Box>
-      <Footer />
-    </>
-  );
+function Genre2() {
+	return (
+		<div className="body">
+			<BrandBanner />
+			<HeaderRevised />
+			<Box sx={{ mb: 10 }}></Box>
+			<h3 className="mainheading">ВИДЕОДОМОФОНЫ</h3>
+			<Box sx={{ mb: 10 }}></Box>
+			<SideFormAndCard />
+			<Box sx={{ mb: 10 }}></Box>
+			<Footer />
+		</div>
+	);
 }
 
-export default App;
+export default Genre2;

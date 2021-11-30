@@ -20,6 +20,9 @@ import MenuItem from "@mui/material/MenuItem";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import Stack from "@mui/material/Stack";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
 
 function Header() {
 	return (
@@ -373,6 +376,7 @@ function Header() {
 					)}
 				</PopupState>
 			</MediaQuery>
+
 			<MediaQuery minWidth={768} maxWidth={1023}>
 				<IconButton
 					sx={{ ml: 1, display: "flex" }}
@@ -444,6 +448,7 @@ function Header() {
 					<ShoppingCartOutlinedIcon />
 				</IconButton>
 			</MediaQuery>
+
 			<MediaQuery minWidth={1024} maxWidth={1279}>
 				<IconButton
 					sx={{ ml: 1, display: "flex" }}
@@ -515,76 +520,87 @@ function Header() {
 					<ShoppingCartOutlinedIcon />
 				</IconButton>
 			</MediaQuery>
-			<MediaQuery minWidth={1280}>
-				<IconButton
-					sx={{ ml: 1, display: "flex" }}
-					aria-label="menu"
-					style={{ color: "#FFFFFF" }}
-				>
-					<MenuIcon />
-				</IconButton>
-				<IconButton
-					sx={{ p: "10px", display: "flex" }}
-					aria-label="menu"
-					style={{ color: "#FFFFFF" }}
-				>
-					<p className="contentheading">Каталог товаров</p>
-				</IconButton>
-				<Paper
-					className="paper"
-					component="form"
-					sx={{
-						ml: 3,
-						p: "2px 4px",
-						display: "flex",
-						alignItems: "center",
-						width: 400,
-					}}
-				>
-					<InputBase
-						sx={{ ml: 1, flex: 1 }}
-						placeholder="Поиск по сайту…"
-						inputProps={{ "aria-label": "search google maps" }}
-					/>
-					<IconButton
-						type="submit"
-						sx={{ p: "10px" }}
-						aria-label="search"
-					>
-						<SearchIcon />
-					</IconButton>
-				</Paper>
-				<IconButton
-					className="icon1"
-					sx={{ ml: "480px", display: "flex" }}
-					aria-label="menu"
-					style={{ color: "#FFFFFF" }}
-				>
-					<p className="contentheading">Вход</p>
-				</IconButton>
-				<IconButton
-					className="icon1"
-					sx={{ display: "flex" }}
-					aria-label="menu"
-					style={{ color: "#FFFFFF" }}
-				>
-					<PersonOutlineIcon />
-				</IconButton>
-				<IconButton
-					sx={{ display: "flex" }}
-					aria-label="menu"
-					style={{ color: "#FFFFFF" }}
-				>
-					<FavoriteBorderIcon />
-				</IconButton>
 
-				<IconButton
-					sx={{ display: "flex" }}
-					aria-label="menu"
-					style={{ color: "#FFFFFF" }}
-				>
-					<ShoppingCartOutlinedIcon />
-				</IconButton>
+			<MediaQuery minWidth={1280} maxWidth={9999}>
+				<Navbar>
+					<Container>
+						<Navbar.Brand>
+							<IconButton
+								sx={{ ml: 1, display: "flex" }}
+								aria-label="menu"
+								style={{ color: "#FFFFFF" }}
+							>
+								<MenuIcon />
+							</IconButton>
+						</Navbar.Brand>
+
+						<IconButton
+							sx={{ p: "10px", display: "flex" }}
+							aria-label="menu"
+							style={{ color: "#FFFFFF" }}
+						>
+							<p className="contentheading">Каталог товаров</p>
+						</IconButton>
+
+						<Paper
+							className="paper"
+							component="form"
+							sx={{
+								ml: 3,
+								p: "2px 4px",
+								display: "flex",
+								alignItems: "center",
+								width: 400,
+							}}
+						>
+							<InputBase
+								sx={{ ml: 1, flex: 1 }}
+								placeholder="Поиск по сайту…"
+								inputProps={{
+									"aria-label": "search google maps",
+								}}
+							/>
+							<IconButton
+								type="submit"
+								sx={{ p: "10px" }}
+								aria-label="search"
+							>
+								<SearchIcon />
+							</IconButton>
+						</Paper>
+
+						<Navbar.Collapse className="justify-content-end">
+							<IconButton
+								className="icon1"
+								aria-label="menu"
+								style={{ color: "#FFFFFF" }}
+							>
+								<p className="contentheading">Вход</p>
+							</IconButton>
+
+							<IconButton
+								className="icon1"
+								aria-label="menu"
+								style={{ color: "#FFFFFF" }}
+							>
+								<PersonOutlineIcon />
+							</IconButton>
+							<IconButton
+								aria-label="menu"
+								style={{ color: "#FFFFFF" }}
+							>
+								<FavoriteBorderIcon />
+							</IconButton>
+
+							<IconButton
+								aria-label="menu"
+								style={{ color: "#FFFFFF" }}
+							>
+								<ShoppingCartOutlinedIcon />
+							</IconButton>
+						</Navbar.Collapse>
+					</Container>
+				</Navbar>
 			</MediaQuery>
 		</div>
 	);

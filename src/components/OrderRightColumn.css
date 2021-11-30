@@ -1,0 +1,13 @@
+.orderpic {
+	width: 100%;
+}
+
+.firstrightrow {
+	border-bottom: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
+.rightcolumn {
+	padding: 10px;
+}

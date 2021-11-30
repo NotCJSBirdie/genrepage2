@@ -1,0 +1,28 @@
+.link {
+	text-align: right;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+.cardpictures {
+	width: 150px;
+	height: 150px;
+}
+
+.carditem {
+	margin: 20px;
+}
+
+.overallgrid {
+	margin: 15px;
+}
+
+.maingrid {
+	margin: 10px;
+}
+
+.topnavbar {
+	background-color: #ffffff;
+}

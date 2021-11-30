@@ -18,6 +18,18 @@ p {
 	margin-top: 1px;
 }
 
+.buttonapi {
+	text-align: center;
+}
+
 .carouselfont {
 	text-align: left;
+}
+
+.paragraph {
+	font-size: 5px;
+}
+
+.paragraphphone {
+	font-size: 9px;
 }

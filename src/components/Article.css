@@ -20,3 +20,13 @@
 .mainheading {
 	text-align: center;
 }
+
+.articleimagesmall {
+	height: 110px;
+	width: 110px;
+}
+
+.articleimagesmallx {
+	height: 300px;
+	width: 100%;
+}
