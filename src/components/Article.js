@@ -4,6 +4,10 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Article1 from "./assets/article1.png";
 import Article2 from "./assets/article2.png";
+import Article3 from "./assets/article3.png";
+import Article4 from "./assets/article4.png";
+import Article5 from "./assets/article5.png";
+import Article6 from "./assets/article6.png";
 import "./Article.css";
 import MediaQuery from "react-responsive";
 import Stack from "@mui/material/Stack";
@@ -46,7 +50,7 @@ function Article() {
 							<CardContent>
 								<img
 									alt=""
-									src={Article1}
+									src={Article2}
 									className="articleimagesmallx"
 								/>
 								<h6 className="title">
@@ -105,7 +109,7 @@ function Article() {
 							<Grid item xs={3} className="grid">
 								<img
 									alt=""
-									src={Article1}
+									src={Article2}
 									className="articleimagesmall"
 								/>
 							</Grid>
@@ -172,7 +176,7 @@ function Article() {
 							<Grid item xs={3} className="grid">
 								<img
 									alt=""
-									src={Article1}
+									src={Article2}
 									className="articleimagesmall"
 								/>
 							</Grid>
@@ -241,7 +245,7 @@ function Article() {
 								<Grid item xs={3} className="grid">
 									<img
 										alt=""
-										src={Article1}
+										src={Article2}
 										className="articleimage"
 									/>
 								</Grid>

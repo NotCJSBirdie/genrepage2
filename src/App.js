@@ -12,12 +12,13 @@ import Box from "@mui/material/Box";
 import ArticleSecond from "./components/Article2.js";
 import ArticleThird from "./components/Article3.js";
 import SideForm from "./components/SideForm.js";
+import HeaderRevised from "./components/HeaderRevised.js";
 
 function App() {
   return (
     <>
       <BrandBanner />
-      <Header />
+      <HeaderRevised />
       <CarouselSidebar />
       <Box sx={{ mt: 5 }}></Box>
       <CardYes />
